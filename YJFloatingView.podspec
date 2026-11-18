@@ -5,15 +5,13 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    This is floating ball view.
                    DESC
-  # ⚠️ 这里先填个假的，等下上传GitHub后回来改
   s.homepage     = 'https://github.com/YongJoan/YJFloatingView.git'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'jade' => 'bj_yj1991@126.com' } # ⚠️改成你的名字和邮箱
+  s.author       = { 'jade' => 'bj_yj1991@126.com' }
   
-  # ⚠️ 这里也先填个假的
   s.source       = { :git => 'https://github.com/YongJoan/YJFloatingView.git', :tag => s.version.to_s }
   
-  s.platform     = :ios, '10.0'
+  s.platform     = :ios
   s.source_files = '**/*.{h,m,mm,c,swift}'
-  s.frameworks   = 'UIKit'
+  s.ios.deployment_target = '10.0'
 end
