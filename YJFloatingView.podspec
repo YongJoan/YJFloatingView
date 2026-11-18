@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/YongJoan/YJFloatingView.git', :tag => s.version.to_s }
   
   s.platform     = :ios, '10.0'
-  s.source_files = 'Sources/**/*.{h,m,mm,c,swift}'
+  s.source_files = '**/*.{h,m,mm,c,swift}'
   s.frameworks   = 'UIKit'
 end
