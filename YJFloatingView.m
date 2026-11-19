@@ -215,4 +215,8 @@
     // 点击关闭按钮移除视图
     [self removeFromSuperview];
 }
+
+- (void)dismiss {
+    [self removeFromSuperview];
+}
 @end
